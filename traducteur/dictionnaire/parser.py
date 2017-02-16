@@ -29,11 +29,16 @@ with open(sys.argv[1], "r") as file_read:
 
 
 #Ecriture du fichier a traduire
+numero_fichier=1
+file=open(PATH_WORD+numero_fichier, "w")
 if traduce:
-    with open(PATH_WORD, "w") as file:
-        for key in dictio.keys():
-            if dictio[key]==None:
-                file.write(key + " <br>\n")
+    for i,key in enumerate(dictio.keys()):
+        if i==500:
+            file.close()
+            numero_fichier+=1
+            file=open(PATH_WORD+numero_fichier, "w")
+        if dictio[key]==None:
+            file.write(key + " <br>\n")
 
 
 #Enregistrement du dictionnaire
