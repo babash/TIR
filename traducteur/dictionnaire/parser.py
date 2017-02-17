@@ -5,8 +5,8 @@ import os
 #Chemin vers le dictionnaire
 PATH_DICO="dictionary.ket"
 #Chemin vers les mots a traduire
-PATH_WORD=sys.argv[1][:-3]+"html"
-
+PATH_WORD=sys.argv[1][:-4]+"_en"
+EXTENTION=sys.argv[1][-4:]
 traduce=False
 #Ouverture ou creation du fichier dictionnaire
 dictio=dict()
@@ -30,15 +30,15 @@ with open(sys.argv[1], "r") as file_read:
 
 #Ecriture du fichier a traduire
 numero_fichier=1
-file=open(PATH_WORD+numero_fichier, "w")
+file=open(PATH_WORD+str(numero_fichier)+EXTENTION, "w")
 if traduce:
     for i,key in enumerate(dictio.keys()):
         if i==500:
             file.close()
             numero_fichier+=1
-            file=open(PATH_WORD+numero_fichier, "w")
+            file=open(PATH_WORD+str(numero_fichier)+EXTENTION, "w")
         if dictio[key]==None:
-            file.write(key + " <br>\n")
+            file.write(key +"\n")
 
 
 #Enregistrement du dictionnaire

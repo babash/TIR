@@ -18,15 +18,14 @@ if os.path.isfile(PATH_DICO):
         dictio=pickle.load(fichier)
 
 
-tradui=open(PATH_TRADUI, "r")
+tradui=open(PATH_TRADUI, "w")
 #Traitement du fichier de test
 with open(sys.argv[1], "r") as atraduire:
     for line in atraduire:
         words = line.split()
         for key in words:
-            if key!="<br>":
-                tradui.write(dictio[key]+" ")
-            elif key==":":
+            if key == ":":
                 tradui.write(":")
+            tradui.write(dictio[key]+" ")
         tradui.write("\n")
 tradui.close()
