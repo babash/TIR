@@ -1,0 +1,39 @@
+import sys
+import sets
+
+nom_fichier = sys.argv[1]
+fichier = open(nom_fichier, "r")
+
+dict_classe = dict()
+last_classe = None
+
+
+for ligne in fichier :
+	if ligne[0] == ":" :
+		dict_classe[ligne[:-1]] = sets.Set()
+		last_classe = ligne[:-1]
+	else :
+		mots = ligne.split(" ")
+		dict_classe[last_classe].add(mots[0] + " ; " + mots[1])
+		dict_classe[last_classe].add(mots[2] + " ; "  + mots[3][:-1])
+
+fichier.close()
+
+nb_fichier = 1
+fichier_out = open(nom_fichier[:-4] + str(nb_fichier) + ".out", "w")
+i = 0
+
+
+for classe in dict_classe :
+	if i + len(dict_classe[classe]) > 450 :
+		fichier_out.close()
+		nb_fichier += 1
+		fichier_out = open(nom_fichier[:-4] + str(nb_fichier) + ".out", "w")
+		i = 0
+	fichier_out.write(classe + "\n")
+	i += 1
+	for elem in dict_classe[classe] :
+		fichier_out.write(elem + "\n")
+		i += 1
+
+fichier_out.close()
