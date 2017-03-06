@@ -60,7 +60,7 @@ def validation(context,key,gtraduc):
             gtraduc=gtemp
 
     return gtraduc
-    
+
 #Chemin vers le dictionnaire
 PATH_DICO="dictionary.ket"
 #Chemin vers les mots traduit en francais
@@ -73,6 +73,16 @@ dictio=dict()
 if os.path.isfile(PATH_DICO):
     with open(PATH_DICO, 'rb') as fichier:
         dictio=pickle.load(fichier)
+
+r = input("""Que voulez vous faire:
+            1: Ajouter une classe
+            2: Modifier une classe""")
+
+switch(entry):
+    case '1':
+        add_class()
+        break;
+        
 
 #Traitement des fichiers contenant la traduction
 list_mot=list()

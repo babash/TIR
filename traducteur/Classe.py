@@ -1,6 +1,6 @@
-from SlimShady import * 
+from Word import * 
 
-class Vandal :
+class Classe :
 	def __init__(self, nom_classe, couples_mots) :
 		self._nom = nom_classe
 		self._couples_mots = couples_mots

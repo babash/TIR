@@ -1,4 +1,4 @@
-class SlimShady :
+class Word :
 	def __init__(self, mot) :
 		self._string = mot
 		self._dico = dict()
