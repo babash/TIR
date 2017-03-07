@@ -1,6 +1,13 @@
 import sys
 import sets
 
+if len(sys.argv) != 3 && len(sys.argv) != 2:
+	print "Usage : <name_file> <consigne=default>"
+if len(sys.argv) == 2 :
+	consigne = "default"
+else :
+	consigne = sys.argv[2]
+
 nom_fichier = sys.argv[1]
 fichier = open(nom_fichier, "r")
 
@@ -23,6 +30,7 @@ nb_fichier = 1
 fichier_out = open(nom_fichier[:-4] + str(nb_fichier) + ".out", "w")
 i = 0
 
+fichier_out.write("!" + consigne + "\n")
 
 for classe in dict_classe :
 	if i + len(dict_classe[classe]) > 450 :
