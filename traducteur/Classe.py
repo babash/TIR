@@ -1,4 +1,5 @@
-from Word import * 
+#-*- coding: utf-8 -*-
+from Word import *
 
 class Classe :
 	def __init__(self, nom_classe) :

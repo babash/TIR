@@ -1,3 +1,4 @@
+#-*- coding: utf-8 -*-
 class Word :
 	def __init__(self, mot) :
 		self._string = mot

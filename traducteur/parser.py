@@ -1,10 +1,11 @@
+#-*- coding: utf-8 -*-
 import sys
 import sets
 
-""" Prends en entrée un fichier de test de relation entre mots en anglais, donne en sortie un ou plusieurs nouveaux fichiers 
+""" Prends en entrée un fichier de test de relation entre mots en anglais, donne en sortie un ou plusieurs nouveaux fichiers
 dans lesquels pour chaque classe on a la liste des couples de mots lui appartenant"""
 
-if len(sys.argv) != 3 && len(sys.argv) != 2:
+if len(sys.argv) != 3 and len(sys.argv) != 2:
 	print "Usage : <name_file> <consigne=default>"
 if len(sys.argv) == 2 :
 	consigne = "default"
@@ -33,13 +34,14 @@ nb_fichier = 1
 fichier_out = open(nom_fichier[:-4] + str(nb_fichier) + ".out", "w")
 i = 0
 
-fichier_out.write("!" + consigne + "\n")
+fichier_out.write("! " + consigne + "\n")
 
 for classe in dict_classe :
 	if i + len(dict_classe[classe]) > 450 :
 		fichier_out.close()
 		nb_fichier += 1
 		fichier_out = open(nom_fichier[:-4] + str(nb_fichier) + ".out", "w")
+		fichier_out.write("! " + consigne + "\n")
 		i = 0
 	fichier_out.write(classe + "\n")
 	i += 1

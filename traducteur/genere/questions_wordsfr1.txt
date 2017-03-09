@@ -1,0 +1,156 @@
+! défaut
+: Gram3 comparative
+Jeune ; plus jeune
+rapide ; plus rapide
+serré ; plus serré
+vite ; Plus vite
+brillant ; lumineux
+simple ; plus simple
+bruyant ; Plus fort
+petit ; plus petit
+du froid ; plus froid
+tranchant ; plus nette
+large ; plus large
+Profond ; Plus profond
+sûr ; plus sûr
+cool ; glacière
+longue ; plus long
+lourd ; plus lourd
+mal ; pire
+haute ; plus haute
+grand ; plus grand
+difficile ; Plus fort
+Nouveau ; plus récent
+grand ; plus grand
+dure ; plus difficile
+pas cher ; moins cher
+à puce; plus intelligent
+chaud ; plus chaud
+court ; plus court
+bien ; meilleur
+facile ; Plus facile
+lent ; Ralentissez
+faible ; inférieur
+faible; plus faible
+génial ; plus grand
+gros ; plus gros
+chaud; plus chaud
+vieux ; plus âgée
+fort ; plus forte
+: Capitale mondiale
+Tokyo; Japon
+Vientiane; Laos
+Banjul; Gambie
+Vienne; L'Autriche
+Hanoi ; Vietnam
+Vilnius; Lituanie
+Lilongwe ; Malawi
+Caracas; Venezuela
+Mogadiscio; Somalie
+Pékin; Chine
+Berne; Suisse
+Stockholm; Suède
+Suva; Fidji
+Dhaka; Bangladesh
+Sofia; Bulgarie
+Kampala; Ouganda
+Lisbonne; Portugal
+Tirana; Albanie
+Ankara; dinde
+Maputo ; Mozambique
+Tunis; Tunisie
+Ashgabat; Turkménistan
+Rome ; Italie
+Dublin; Irlande
+Roseau ; Dominica
+Paris ; France
+Abuja ; Nigeria
+Tripoli; Libye
+Monrovia ; Liberia
+Quito; Equateur
+Doha ; Qatar
+Asmara; Érythrée
+Libreville ; Gabon
+Bruxelles; la Belgique
+Alger; Algérie
+Kingston; Jamaïque
+Bamako ; Mali
+Belmopan; Belize
+Belgrade; Serbie
+Bakou; Azerbaïdjan
+Canberra; Australie
+Copenhague; Danemark
+Zagreb; Croatie
+Nuuk; Groenland
+Le Caire; Egypte
+Vaduz ; Liechtenstein
+Chisinau; Moldavie
+Lusaka; Zambie
+Tegucigalpa; Honduras
+Amman; Jordan
+Accra ; Ghana
+Muscat; Oman
+Lima ; Pérou
+Bucarest; Roumanie
+Manama; Bahreïn
+Katmandou; Népal
+Havana ; Cuba
+Conakry ; Guinea
+Ottawa ; Canada
+Manille; Philippines
+Thimphu; Bhoutan
+Bangkok; Thaïlande
+Beyrouth; Liban
+Helsinki, Finlande; Finlande
+Skopje; Macédoine
+Kigali ; Rwanda
+Varsovie; Pologne
+Apia; Samoa
+Jakarta; Indonésie
+Londres; Angleterre
+Luanda ; Angola
+Tachkent; Ouzbékistan
+Budapest; Hongrie
+Antananarivo ; Madagascar
+Managua ; Nicaragua
+Niamey ; Niger
+Riga; Lettonie
+Santiago; Chili
+Bichkek; Kirghizistan
+Podgorica; Monténégro
+Kaboul; Afghanistan
+Bagdad; Irak
+Berlin; Allemagne
+Kiev ; Ukraine
+Bujumbura ; Burundi
+Nouakchott ; Mauritania
+Ljubljana; Slovénie
+Nairobi ; Kenya
+Dakar ; Senegal
+Madrid; Espagne
+Téhéran; Iran
+Montevideo ; Uruguay
+Moscou; Russie
+Minsk; Belarus
+Tbilissi; Géorgie
+Khartoum; Soudan
+Rabat; Maroc
+Athènes; Grèce
+La Valette; Malte
+Douchanbé; Tadjikistan
+Georgetown; Guyane
+Windhoek; Namibie
+Paramaribo ; Suriname
+Nicosie; Chypre
+Damas; Syrie
+Erevan; Arménie
+Gaborone ; Botswana
+Bratislava; Slovaquie
+Funafuti; Tuvalu
+Tallinn; Estonie
+Astana ; Kazakhstan
+Harare ; Zimbabwe
+Taipei; Taïwan
+Islamabad ; Pakistan
+Oslo; Norvège
+Nassau ; Bahamas

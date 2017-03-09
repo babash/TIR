@@ -1,18 +1,21 @@
+#-*- coding: utf-8 -*-
 import sets
 import Classe
 import Word
 
 class Dico :
 	"""
-		consignes= Set des consignes sous forme de string
-		classes =  dictionnaire des classes
+		consignes = Set des consignes sous forme de string
+		classes =  Dictionnaire des classes
 	"""
+
 	def __init__(self, consignes=sets.Set(), classes=dict()) :
 		self._consignes = consignes
 		self._classes = classes
 
 	def add_class(self, keyclass, classe) :
 		pass
+
 	def add_class(self, path) :
 		current_classe_key= None
 		current_classe = None
@@ -26,8 +29,11 @@ class Dico :
 						current_classe = self._classes[current_classe_key]
 					except KeyError:
 						self._classes[current_classe_key] = Classe.Classe(current_classe_key)
+						current_classe = self._classes[current_classe_key]
 				else :
 					mots = ligne.split(";")
+					print mots
+					print ligne
 					current_classe.add_couple((Word.Word(mots[0]), Word.Word(mots[1])))
 
 	def add_cons_for_class(self, keycons, keyclass) :

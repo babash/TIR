@@ -26,7 +26,7 @@ with open(sys.argv[1], "r") as cible :
         words = line.split()
         if words[0] == ":" :
             #On réécris la ligne si ":"
-            traduction.write(line.lower())
+            traduction.write(line)
         elif len(words) != 4 :
             #On ignore si la ligne n'est pas correct
             pass
