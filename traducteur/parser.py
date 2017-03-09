@@ -1,6 +1,9 @@
 import sys
 import sets
 
+""" Prends en entrée un fichier de test de relation entre mots en anglais, donne en sortie un ou plusieurs nouveaux fichiers 
+dans lesquels pour chaque classe on a la liste des couples de mots lui appartenant"""
+
 if len(sys.argv) != 3 && len(sys.argv) != 2:
 	print "Usage : <name_file> <consigne=default>"
 if len(sys.argv) == 2 :

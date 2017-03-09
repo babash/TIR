@@ -4,14 +4,15 @@ import Word
 
 class Dico :
 	"""
-		consigne= Set des consignes sous forme de string
-		classe =  dictionnaire des classes
+		consignes= Set des consignes sous forme de string
+		classes =  dictionnaire des classes
 	"""
-	def __init__(self, consigne=sets.Set(), classe=dict()) :
+	def __init__(self, consignes=sets.Set(), classes=dict()) :
 		self._consignes = consignes
 		self._classes = classes
 
 	def add_class(self, keyclass, classe) :
+		pass
 	def add_class(self, path) :
 		current_classe_key= None
 		current_classe = None
@@ -22,13 +23,12 @@ class Dico :
 				elif ligne[0] == ":" :
 					current_classe_key = ligne[1:]
 					try :
-						self._classes[current_classe_key]
-						current_classe = 
+						current_classe = self._classes[current_classe_key]
 					except KeyError:
 						self._classes[current_classe_key] = Classe.Classe(current_classe_key)
 				else :
 					mots = ligne.split(";")
-					.add_couple((Word.Word(mots[0]), Word.Word(mots[1])))
-			for classe in validation.classe();
+					current_classe.add_couple((Word.Word(mots[0]), Word.Word(mots[1])))
 
 	def add_cons_for_class(self, keycons, keyclass) :
+		pass
