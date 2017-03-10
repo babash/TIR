@@ -15,9 +15,28 @@ class Dico :
 		self._classes = classes
 
 	def add_class(self, keyclass, classe) :
-		pass
+		try:
+			self._classes[keyclass]
+			s=raw_input("La classe "+keyclass+" existe deja voulez-vous la remplacer?(o/n)")
+			if s=="o":
+				raise KeyError
+			elif s=="n":
+				keyclass=raw_input("Nouveau nom : ")
+				self.add_class(keyclass, classe)
+			else:
+				self.add_class(keyclass, classe)
+		except KeyError:
+			self._classes[keyclass] = classe
 
-	def add_class(self, path) :
+	def modif_class(self) :
+			choice=[]
+			for i,key in enumerate(self._classes.keys()):
+				print i,": ",key
+				choice.append(key)
+			s=input("Selectioner un id de classes :")
+			self._classes[choice[int(s)]].modif_couples()
+
+	def add_class_from_file(self, path) :
 		current_classe_key = None
 		current_classe = None
 		with open(path, "r") as fichier :

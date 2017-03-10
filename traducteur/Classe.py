@@ -2,9 +2,21 @@
 from Word import *
 
 class Classe :
-	def __init__(self, nom_classe) :
+	def __init__(self, nom_classe, couples_mots=list()) :
 		self._nom = nom_classe
-		self._couples_mots = list()
+		self._couples_mots = couples_mots
+
+	def __str__(self) :
+		for i in range(len(self._couples_mots)):
+			s+= [ligne + "\n" for ligne in [mot1 + mot2 for mot1,mot2 in self._couples_mots]]
+		return s
+
+	def modif_couples(self) :
+			for i,key in enumerate(self._couples_mots.keys()):
+				print i,": ",key
+			i=input("Selectioner un id de couples :")
+			s=input("Reecriver le couples :")
+			#blablalalalaalbalaballalab
 
 	def to_string(self, parametre) :
 		string = self._nom + "\n"
