@@ -9,12 +9,11 @@ if len(sys.argv) != 2 :
 	exit(1)
 
 PATH_DICO = sys.argv[1]
-
-if os.path.isfile(PATH_DICO):
-    with open(PATH_DICO, 'rb') as fichier:
-        dico = pickle.load(fichier)
-else :
-	dico = Dico.Dico()
+# if os.path.isfile(PATH_DICO):
+#     with open(PATH_DICO, 'rb') as fichier:
+#         dico = pickle.load(fichier)
+# else :
+dico = Dico.Dico()
 
 r = int(raw_input("Que voulez vous faire:\n 1: Ajouter une classe depuis un fichier.\n 2: Ajouter une classe manuellement.\n 3: Modifier une classe\n 4: Ajouter une interprétation\n 5: Créer un fichier test \n"))
 
@@ -35,3 +34,6 @@ elif r == 5 :
 else :
 	print "Error nombre entré"
 	exit(1)
+
+with open(PATH_DICO, 'wb') as fichier:
+    pickle.dump(dico,fichier)

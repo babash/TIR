@@ -15,5 +15,8 @@ class Word :
 	def add_def(self, parametre, definition) :
 		self._dico[parametre] = definition
 
+	def remove_space(self):
+		self._string.replace(" ","_")
+
 	def __str__(self) :
 		return self._string
