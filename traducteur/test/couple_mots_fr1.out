@@ -1,37 +1,37 @@
 ! défaut
 : Gram5-présent-participle
-Disparaît ; en disparissant
+Disparaîs ; en disparissant
 augmente ; en augmentant
 Regarde; en regardant
-court ; en courant
+cours ; en courant
 bouge ; en mouvement
-Voit; en voyant
+Vois; en voyant
 pense ; en pensant
 saute ; en sautant
-décrit ; en décrivant
+décris ; en décrivant
 mélange ; en mélangeant
 crie ; en criant
-Prédit ; en prédisant
+Prédis ; en prédisant
 découvre ; en découvrant
 Code ; en codant
 implémente ; en implémentant
 danse ; en dansant
 joue ; en jouant
 chante ; en chantant
-Débogue ; en débuguant
+Débugue ; en débuguant
 nage ; en nageant
 diminue ; en diminuant
 invente ; en inventant
-écrit ; en écrivant
+écris ; en écrivant
 génére ; en générant
-assied ; en s'assayant
+assieds ; en s'assayant
 vol ; en volant
 écoute ; en écoutant
-ralenti ; en ralentissement
+ralentis ; en ralentissement
 marche ; en marchant
-va ; en allant
-lit ; en lisant
-dit ; en disant
+vais ; en allant
+lis ; en lisant
+dis ; en disant
 Améliore ; en améliorant
 : city-in-state
 Anaheim; Californie
@@ -104,62 +104,62 @@ Baltimore; Maryland
 Détroit; Michigan
 : Gram4-superlatif
 grand ; Le plus grand
-chaud ; Plus chaud
-Intelligent; Plus intelligent
-Faible; Plus faible
-faible ; le plus bas
+chaud ; le Plus chaud
+Intelligent; le plus intelligent
+Faible; le Plus faible
+bas ; le plus bas
 grand ; Le plus grand
-petit ; Plus petit
-lent ; Plus lent
-doux ; Plus doux
-délicieux ; Plus savoureux
+petit ; le Plus petit
+lent ; le Plus lent
+doux ; le Plus doux
+savoureux ; le Plus savoureux
 rapide ; Le plus rapide
-facile ; Plus facile
-cool ; Plus cool
-bien ; meilleur
-génial ; Le plus grand
-longue ; Le plus long
-bizarre ; Plus étrange
-Simple; Plus simple
+facile ; le Plus facile
+cool ; le Plus cool
+bon ; le meilleur
+super ; le meilleur
+long ; Le plus long
+bizarre ; le plus bizarre
+Simple; le Plus simple
 large ; Le plus large
-foncé ; Plus sombre
-tranchant ; Plus vif
-mal ; pire
-du froid ; Le plus froid
+sombre ; le Plus sombre
+tranchant ; le Plus tranchant
+mauvais ; le pire
+froid ; Le plus froid
 court ; Le plus court
-chanceux ; Plus chanceux
-vieux ; Le plus ancien
-haute ; le plus élevé
-vite ; le plus rapide
-Chaud Le plus chaud
+chanceux ; le Plus chanceux
+vieux ; Le plus vieux
+haut ; le plus haut
+rapide ; le plus rapide
+Chaud ; Le plus chaud
 fort ; Le plus fort
 Étrange; Plus étrange
-gros ; Plus grand
-Jeune ; Plus jeune
+gros ; le Plus gros
+Jeune ; le Plus jeune
 brillant ; Le plus brillant
 : Gram8-pluriel
 Dollar; Dollars
 âne ; Ânes
 chat ; chats
-cheval ; les chevaux
-poire ; des poires
+cheval ; chevaux
+poire ; poires
 Femme; femmes
 banane ; bananes
 melon ; Melons
-Lion ; les Lions
+Lion ; Lions
 Éléphant; Éléphants
 chien ; chiens
 serpent ; serpents
 Aigle; Aigles
 Singe; singes
-voiture ; des voitures
-Nuage; des nuages
+voiture ; voitures
+Nuage; nuages
 Vache; Vaches
-oiseau ; des oiseaux
+oiseau ; oiseaux
 Chèvre; chèvres
 main ; mains
 bâtiment ; bâtiments
-doigt ; des doigts
+doigt ; doigts
 bouteille ; bouteilles
 rêver ; rêves
 oignon ; oignons
@@ -167,19 +167,19 @@ Machine; machines
 Route; routes
 Homme; Hommes
 Souris ; Souris
-porc ; les cochons
+porc ; cochons
 ananas ; Ananas
 Couleur ; couleurs
 Enfant; Enfants
-œil ; les yeux
-rat ; les rats
+œil ; yeux
+rat ; rats
 mangue ; mangues
-ordinateur ; des ordinateurs
+ordinateur ; ordinateurs
 : Gram6-nationality-adjective
 Danemark ; danois
 Angleterre ; Anglais
 Argentine; Argentin
-Espagne; Espanol
+Espagne; Espagnol
 Thaïlande ; thaïlandais
 Allemagne ; allemand
 Egypte ; égyptien
@@ -190,7 +190,7 @@ Irlande ; irlandais
 Mexique ; mexicain
 Japon ; Japonais
 France ; français
-L'Autriche ; autrichien
+Autriche ; autrichien
 Corée ; coréen
 Suisse ; Suisse
 Malte; maltais
@@ -214,10 +214,10 @@ Cambodge; cambodgien
 Australie; australien
 Russie ; russe
 Chili; chilien
-Bélarus; Biélorusse
+Biélorussie; Biélorusse
 Israël ; israélien
 Pologne; polonais
-: Famille
+: Family
 Beau-fils; belle fille
 beau-père ; Belle-mère
 Roi ; reine
@@ -226,61 +226,207 @@ frères ; sœurs
 père ; mère
 Prince; Princesse
 Mari; femme
-jeune marié ; la mariée
-le sien ; sa
-policier ; femme policier
+le marié ; la mariée
+son ; sa
+policier ; policière
 petit fils ; petite fille
 Garçon; fille
 grand-père ; grand-mère
 frère ; sœur
 Il; elle
-Grand-père grand-mère
+papy ; mamie
 Fils; Filles
 Neveu; nièce
 Oncle; tante
 Fils; fille
-beau-frère ; demi-soeur
+demi-frère ; demi-soeur
+beau-frère ; belle-soeur
 papa ; maman
 : Gram9-pluriel-verbes
-augmenter ; Augmente
-marche ; des promenades
-Shuffle; Mélange
-mettre en place ; met en oeuvre
-Décrire; Décrit
-fournir ; Fournit
-travail ; travaux
-chercher ; Recherches
-jouer ; pièces
-Diminution; Diminue
-asseoir ; S'assoit
-estimation ; estimations
-Chanter; Chante
-aller ; va
-trouver ; Trouve
-parler ; pourparlers
-Générer ; Génère
-Améliorer; Améliore
-Prédire Prédit
-écrire ; Écrit
-Disparaître; Disparaît
-pense ; pense
-parler ; Parle
-dire ; dit
-Écouter Écoute
-crier ; cris
-nager ; Nage
-Manger Mange
-Voir; Voit
-lent ; Ralentit
+augmentent ; Augmente
+marchent ; marche
+mélangent ; Mélange
+implémentent  ; implémente
+Décrivent ; Décrit
+fournissent ; Fournit
+travaillent ; travaille
+cherchent ; cherche
+jouent ; joue
+Diminuent ; Diminue
+assoient ; assoit
+estiment ; estime
+Chantent ; Chante
+vont ; va
+trouvent ; Trouve
+parlent ; parle
+Générent ; Génère
+Améliorent ; Améliore
+Prédisent ; Prédit
+écrivent ; Écrit
+Disparaîssent ; Disparaît
+pensent ; pense
+discutent ; discute
+disent ; dit
+Écoutent ; Écoute
+crient ; crie
+nagent ; Nage
+Mangent ; Mange
+Voient ; Voit
+ralentissent ; Ralentit
 : Gram1-adjectif-à-adverbe
-incroyable ; Étonnamment
+incroyable ; incroyablement
 Évident; évidemment
-Achevée ; complètement
+complet ; complètement
 Précis; précisément
-Peu fréquent; Rarement
-Occasionnel; parfois
-Possible; peut-être
+rare ; Rarement
+Occasionnel; occasionnellement
+Possible; possiblement
 Rapide; rapidement
 professionnel ; professionnellement
 apparent ; Apparemment
-sûr ; sans encombre
+sécurisé ; sécurisant
+calme ; calmement
+silencieux : silencieusement
+Soudain ; soudainement
+gai ; gaiement
+hésité ; hésitant
+Efficace; Efficacement
+heureux ; Heureusement
+Habituel; habituellement
+Typique; typiquement
+gratuit ; gratuitement
+le plus ; la plupart
+calme ; calmement
+rapide ; rapidement
+Malheureux; malheureusement
+furieux ; furieusement
+sérieux ; sérieusement
+lent ; lentement
+joyeux ; joyeusement
+Immédiat; immédiatement
+chanceux ; Heureusement
+: Gram2-opposé
+Éthique; immoral
+Certain; incertain
+De bon goût; de mauvais goût
+Efficace; inefficace
+raisonnable ; déraisonnable
+conscient ; inconscient
+Cohérent ; incohérent 
+chanceux ; malchanceux
+Productif; improductif
+Rationnel; irrationnel
+Logique; illogique
+impressionnant ; Pas impressionnant
+sûr ; pas sûr
+Pratique; pas pratique
+Honnête; malhonnête
+convaincant ; pas convaincant
+connu ; inconnu
+confortable ; inconfortable
+Compétitif; Non compétitif
+informé ; non informé
+Clair; sombre
+information ; désinformation
+Responsable; irresponsable
+probable ; improbable
+Possible; impossible
+acceptable ; inacceptable
+agréable ; désagréable
+décidé ; indécis
+: Gram7-passé-temps
+en implémentant ; a implémenté
+en vendant; a vendu
+en sautant; a sauté
+en dipraissant; a disparu
+en augmentant ; a augmenté
+en hurlant ; a hurlé
+en tombant; est tombée
+en pensant ; a pensée
+en écoutant ;a Écouté
+en prenant; a pris
+en jouant ; a joué
+en dormant ;a dormi
+en cachant ;a caché
+en prédisant;a prédit
+en dansant ; a dansé
+en rétrécissant; a rétréci
+en décrivant; a décrit
+en générant; a généré
+en dépensant ; a dépensé
+en asseyant; a assis
+en connaissant ; a connu
+en améliorant; a anélioré
+en volant ; a volé
+en écrivant ; a écrit
+en déplacant ; a déplacé
+en nageant ; a nagé
+en frappnt ; a frappé
+en voyant ; a vu
+en fonctionnant ; a fonctionné
+en allant ; est allé
+en payant ; a payé
+en marchant ; a marché
+en décroissant; a diminué
+en disant ; a dit
+en alimentant ; a alimenté
+en ralentissant; a ralenti
+en frappant ; a frappé
+en chantant ; a chanté
+en regardant; a regardé
+en lisant ; a lis
+: devise
+Suède ; Couronne
+Croatie; Kuna
+Arménie; drachme
+Hongrie ; Forint
+Lettonie; Lats
+Vietnam; Dong
+Bulgarie; Lev
+Danemark ; couronne
+Roumanie ; Leu
+Ukraine; Hryvnia
+Russie ; rouble
+Canada ; dollar
+Corée ; won
+Pologne; Zloty
+Macédoine; Denar
+Inde ; roupie
+Algérie; dinar
+Thaïlande ; Baht
+Argentine; peso
+Cambodge; Riel
+Malaisie; Ringgit
+Japon ; yen
+Etats-unis; dollar
+Nigeria ; Naira
+Angola; Kwanza
+Brésil ; réal
+Lituanie; Litas
+Europe ; euro
+Iran ; Rial
+Mexique ; peso
+: Capital-pays-communs
+Berlin; Allemagne
+Tokyo; Japon
+La Havane; Cuba
+Hanoi; Vietnam
+Bangkok; Thaïlande
+Madrid; Espagne
+Téhéran; Iran
+Ottawa; Canada
+Moscou; Russie
+Pékin; Chine
+Helsinki; Finlande
+Athènes; Grèce
+Berne; Suisse
+Canberra; Australie
+Stockholm; Suède
+Londres; Angleterre
+Le Caire; Egypte
+Rome ; Italie
+Paris ; France
+Kaboul; Afghanistan
+Islamabad; Pakistan
+Oslo; Norvège
+Bagdad; Irak
