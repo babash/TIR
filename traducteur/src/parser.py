@@ -31,7 +31,8 @@ for ligne in fichier :
 fichier.close()
 
 nb_fichier = 1
-fichier_out = open(nom_fichier[:-4] + str(nb_fichier) + ".out", "w")
+nom_fichier_out = "../test/couple_mots_non_traduits"
+fichier_out = open(nom_fichier_out + str(nb_fichier) + ".out", "w")
 i = 0
 
 fichier_out.write("! " + consigne + "\n")
@@ -40,7 +41,7 @@ for classe in dict_classe :
 	if i + len(dict_classe[classe]) > 450 :
 		fichier_out.close()
 		nb_fichier += 1
-		fichier_out = open(nom_fichier[:-4] + str(nb_fichier) + ".out", "w")
+		fichier_out = open(nom_fichier_out + str(nb_fichier) + ".out", "w")
 		fichier_out.write("! " + consigne + "\n")
 		i = 0
 	fichier_out.write(classe + "\n")
