@@ -1,0 +1,286 @@
+! défaut
+: Gram5-présent-participle
+Disparaît ; en disparissant
+augmente ; en augmentant
+Regarde; en regardant
+court ; en courant
+bouge ; en mouvement
+Voit; en voyant
+pense ; en pensant
+saute ; en sautant
+décrit ; en décrivant
+mélange ; en mélangeant
+crie ; en criant
+Prédit ; en prédisant
+découvre ; en découvrant
+Code ; en codant
+implémente ; en implémentant
+danse ; en dansant
+joue ; en jouant
+chante ; en chantant
+Débogue ; en débuguant
+nage ; en nageant
+diminue ; en diminuant
+invente ; en inventant
+écrit ; en écrivant
+génére ; en générant
+assied ; en s'assayant
+vol ; en volant
+écoute ; en écoutant
+ralenti ; en ralentissement
+marche ; en marchant
+va ; en allant
+lit ; en lisant
+dit ; en disant
+Améliore ; en améliorant
+: city-in-state
+Anaheim; Californie
+Houston; Texas
+Scottsdale; Arizona
+Wichita; Kansas
+Honolulu; Hawaii
+Seattle; Washington
+Tampa; Floride
+Minneapolis; Minnesota
+Pittsburgh; Pennsylvanie
+Denver; Colorado
+Portland; Oregon
+Oxnard; Californie
+Cincinnati; Ohio
+Cleveland; Ohio
+Tucson; Arizona
+Laredo; Texas
+Phoenix; Arizona
+Fremont; Californie
+Mesa; Arizona
+Philadelphia ; Pennsylvanie
+Lexington ; Kentucky
+Sacramento ; Californie
+Austin; Texas
+Irving; Texas
+Jacksonville; Floride
+Irvine; Californie
+Nashville; Tennessee
+Oakland; Californie
+Madison; Wisconsin
+Tolède; Ohio
+Amarillo; Texas
+Bakersfield; Californie
+Orlando; Floride
+Atlanta; Géorgie
+Hialeah; Floride
+Omaha; Nebraska
+Fontana; Californie
+Henderson; Nevada
+Plano; Texas
+Miami; Floride
+Milwaukee; Wisconsin
+Garland; Texas
+Spokane; Washington
+Tacoma; Washington
+Indianapolis; Indiana
+Worcester; Massachusetts
+Anchorage ; Alaska
+Glendale; Arizona
+Boston; Massachusetts
+Akron; Ohio
+Modesto; Californie
+Tallahassee; Floride
+Reno; Nevada
+Memphis; Tennessee
+Chicago; Illinois
+Arlington; Texas
+Louisville; Kentucky
+Tulsa; Oklahoma
+Dallas; Texas
+Shreveport; Louisiane
+Glendale; Californie
+Stockton; Californie
+Huntsville; Alabama
+Lubbock; Texas
+Chandler; Arizona
+Fresno; Californie
+Baltimore; Maryland
+Détroit; Michigan
+: Gram4-superlatif
+grand ; Le plus grand
+chaud ; Plus chaud
+Intelligent; Plus intelligent
+Faible; Plus faible
+faible ; le plus bas
+grand ; Le plus grand
+petit ; Plus petit
+lent ; Plus lent
+doux ; Plus doux
+délicieux ; Plus savoureux
+rapide ; Le plus rapide
+facile ; Plus facile
+cool ; Plus cool
+bien ; meilleur
+génial ; Le plus grand
+longue ; Le plus long
+bizarre ; Plus étrange
+Simple; Plus simple
+large ; Le plus large
+foncé ; Plus sombre
+tranchant ; Plus vif
+mal ; pire
+du froid ; Le plus froid
+court ; Le plus court
+chanceux ; Plus chanceux
+vieux ; Le plus ancien
+haute ; le plus élevé
+vite ; le plus rapide
+Chaud Le plus chaud
+fort ; Le plus fort
+Étrange; Plus étrange
+gros ; Plus grand
+Jeune ; Plus jeune
+brillant ; Le plus brillant
+: Gram8-pluriel
+Dollar; Dollars
+âne ; Ânes
+chat ; chats
+cheval ; les chevaux
+poire ; des poires
+Femme; femmes
+banane ; bananes
+melon ; Melons
+Lion ; les Lions
+Éléphant; Éléphants
+chien ; chiens
+serpent ; serpents
+Aigle; Aigles
+Singe; singes
+voiture ; des voitures
+Nuage; des nuages
+Vache; Vaches
+oiseau ; des oiseaux
+Chèvre; chèvres
+main ; mains
+bâtiment ; bâtiments
+doigt ; des doigts
+bouteille ; bouteilles
+rêver ; rêves
+oignon ; oignons
+Machine; machines
+Route; routes
+Homme; Hommes
+Souris ; Souris
+porc ; les cochons
+ananas ; Ananas
+Couleur ; couleurs
+Enfant; Enfants
+œil ; les yeux
+rat ; les rats
+mangue ; mangues
+ordinateur ; des ordinateurs
+: Gram6-nationality-adjective
+Danemark ; danois
+Angleterre ; Anglais
+Argentine; Argentin
+Espagne; Espanol
+Thaïlande ; thaïlandais
+Allemagne ; allemand
+Egypte ; égyptien
+Pérou ; péruvien
+Suède ; suédois
+Colombie; colombien
+Irlande ; irlandais
+Mexique ; mexicain
+Japon ; Japonais
+France ; français
+L'Autriche ; autrichien
+Corée ; coréen
+Suisse ; Suisse
+Malte; maltais
+Slovaquie; Slovaque
+Islande; islandais
+Brésil ; brésilien
+Albanie; albanais
+Portugal ; Portugais
+Grèce ; grec
+Pays-Bas ; néerlandais
+Macédoine; Macédonien
+Croatie; croate
+Ukraine; ukrainien
+Bulgarie; bulgare
+Inde ; Indien
+Moldavie; Moldave
+Italie ; italien
+Chine ; chinois
+Norvège ; norvégien
+Cambodge; cambodgien
+Australie; australien
+Russie ; russe
+Chili; chilien
+Bélarus; Biélorusse
+Israël ; israélien
+Pologne; polonais
+: Famille
+Beau-fils; belle fille
+beau-père ; Belle-mère
+Roi ; reine
+Homme; femme
+frères ; sœurs
+père ; mère
+Prince; Princesse
+Mari; femme
+jeune marié ; la mariée
+le sien ; sa
+policier ; femme policier
+petit fils ; petite fille
+Garçon; fille
+grand-père ; grand-mère
+frère ; sœur
+Il; elle
+Grand-père grand-mère
+Fils; Filles
+Neveu; nièce
+Oncle; tante
+Fils; fille
+beau-frère ; demi-soeur
+papa ; maman
+: Gram9-pluriel-verbes
+augmenter ; Augmente
+marche ; des promenades
+Shuffle; Mélange
+mettre en place ; met en oeuvre
+Décrire; Décrit
+fournir ; Fournit
+travail ; travaux
+chercher ; Recherches
+jouer ; pièces
+Diminution; Diminue
+asseoir ; S'assoit
+estimation ; estimations
+Chanter; Chante
+aller ; va
+trouver ; Trouve
+parler ; pourparlers
+Générer ; Génère
+Améliorer; Améliore
+Prédire Prédit
+écrire ; Écrit
+Disparaître; Disparaît
+pense ; pense
+parler ; Parle
+dire ; dit
+Écouter Écoute
+crier ; cris
+nager ; Nage
+Manger Mange
+Voir; Voit
+lent ; Ralentit
+: Gram1-adjectif-à-adverbe
+incroyable ; Étonnamment
+Évident; évidemment
+Achevée ; complètement
+Précis; précisément
+Peu fréquent; Rarement
+Occasionnel; parfois
+Possible; peut-être
+Rapide; rapidement
+professionnel ; professionnellement
+apparent ; Apparemment
+sûr ; sans encombre
