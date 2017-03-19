@@ -2,14 +2,19 @@
 from Word import *
 
 class Classe :
-	def __init__(self, nom_classe, couples_mots=list()) :
+	def __init__(self, nom_classe, couples_mots=None) :
 		self._nom = nom_classe
-		self._couples_mots = couples_mots
+		if couples_mots == None :
+			self._couples_mots = list()
+		else :
+			self._couples_mots = couples_mots
 
 	def __str__(self) :
-		for i in range(len(self._couples_mots)):
-			s+= [ligne + "\n" for ligne in [mot1 + mot2 for mot1,mot2 in self._couples_mots]]
-		return s
+		string = ""
+		string += self._nom + "\n"
+		for cm in self._couples_mots :
+			string += str(cm[0]) + " " + str(cm[1])
+		return string
 
 	def modif_couples(self) :
 			for i,key in enumerate(self._couples_mots.keys()):

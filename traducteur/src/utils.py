@@ -1,3 +1,5 @@
+import unicodedata
+
 def to_ascii(string):
  return unicodedata.normalize('NFD',unicode(string,'utf-8')).encode('ascii', 'ignore')
 
