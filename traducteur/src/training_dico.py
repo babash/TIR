@@ -60,9 +60,9 @@ elif r == 5 :
 	while(ret_unicode != "y" and ret_unicode != "n") :
 		ret_unicode = raw_input("Voulez vous les accents ? (y/n)\n")
 
-	ret_tiret = None
-	while(ret_tiret != "y" and ret_tiret != "n") :
-		ret_tiret = raw_input("Voulez vous compléter les espaces par des tirets ? (y/n)\n")
+	# ret_tiret = None
+	# while(ret_tiret != "y" and ret_tiret != "n") :
+	# 	ret_tiret = raw_input("Voulez vous compléter les espaces par des tirets ? (y/n)\n")
 
 	string = ""
 	for c in ret_classes :
@@ -70,11 +70,13 @@ elif r == 5 :
 		if classe != None :
 			string += classe.to_string("default")
 
-	if ret_unicode == "y" :
+	if ret_unicode == "n" :
+		#on ne veut pas les accents
 		string = utils.to_ascii(string)
 
-	if ret_tiret == "y" :
-		string = utils.with_underscore(string)
+	# if ret_tiret == "y" :
+	# 	#on veut les tirets
+	# 	string = utils.with_underscore(string)
 	
 	fichier = open(NOM_FILE_OUT, 'w')
 	fichier.write(string)
